@@ -12,7 +12,7 @@ describe('Dictionary', () => {
       });
       it('should return "berry"', () => {
         const matcher = new Dictionary(words);
-        expect(matcher.findMostSimilar('strawbery')).to.be.equal('cherry');
+        expect(matcher.findMostSimilar('berry')).to.be.equal('cherry');
       });
     });
     describe('findMostSimilar test 1', () => {
